@@ -1,0 +1,98 @@
+.alerts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.alerts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.alert-card {
+  padding: 1.25rem;
+}
+
+.alert-card.type-urgent {
+  border-left: 4px solid var(--danger-color);
+}
+
+.alert-card.type-warning {
+  border-left: 4px solid var(--warning-color);
+}
+
+.alert-card.type-info {
+  border-left: 4px solid var(--primary-color);
+}
+
+.alert-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.alert-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-urgent {
+  color: var(--danger-color);
+}
+
+.icon-warning {
+  color: var(--warning-color);
+}
+
+.icon-info {
+  color: var(--primary-color);
+}
+
+.alert-time {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.alert-content p {
+  margin: 0 0 1rem 0;
+  color: var(--text-primary);
+}
+
+.alert-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.alert-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.channel-name {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.discord-link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--primary-color);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.discord-link:hover {
+  text-decoration: underline;
+}

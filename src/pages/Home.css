@@ -1,0 +1,84 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ask-section {
+  margin-bottom: 1rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.75rem;
+}
+
+.feed-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.question-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.author-info {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.author-info h4 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.time {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.tags {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.card-body h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card-body p {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+.card-footer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+  justify-content: space-between;
+}
+
+.action-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.answered-badge {
+  align-self: center;
+}
